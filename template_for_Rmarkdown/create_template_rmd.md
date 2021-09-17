@@ -130,7 +130,14 @@ cat my_template/skeleton/skeleton.Rmd
     ##   html_notebook: default
     ##   pdf_document: default
     ## ---
-    ## 
+    ## clean work enviroment
+    ##
+    ## ```{r}
+    ##
+    ## rm(list = ls())
+    ## gc()
+    ##
+    ## ``` 
     ## WRITE YOUR CODE HERE
 
 restart your R section and select your new template in File\>New File\>R
