@@ -1,0 +1,12 @@
+---
+title: "TITLE"
+author: "YOUR NAME - `r R.Version()$version.string`"
+date: "`r Sys.Date()`"
+output:
+  github_document: default
+  html_notebook: default
+  pdf_document: default
+---
+
+WRITE YOUR CODE HERE
+
