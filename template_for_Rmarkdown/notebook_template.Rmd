@@ -8,5 +8,14 @@ output:
   pdf_document: default
 ---
 
+Clean work environment.
+
+```{r}
+
+rm(list = ls())
+gc()
+
+```
+
 WRITE YOUR CODE HERE
 
